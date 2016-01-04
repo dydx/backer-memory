@@ -26,7 +26,7 @@ module Backer
       end
 
       def all
-        @records
+        @records.values
       end
 
       def find_by_id(n)

@@ -1,7 +1,7 @@
 require "backer/memory/version"
 
 module Backer
-  class Memory
+  module Memory
     def initialize
       @records = {}
       @id = 1

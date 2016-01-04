@@ -25,6 +25,10 @@ module Backer
         return object
       end
 
+      def all
+        @records
+      end
+
       def find_by_id(n)
         @records[n.to_i]
       end
